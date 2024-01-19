@@ -19,6 +19,17 @@ Q.3.5 Pour ce même ordinateur, que représente l'adresse 10.10.255.254 ?
 la passerelle par défaut
 
 Q.3.6 Pour les ordinateur PC1, PC2, et PC5 donne :
+PC1
+L'adresse de réseau
+La première adresse disponible
+La dernière adresse disponible
+L'adresse de diffusion
+PC2
+L'adresse de réseau
+La première adresse disponible
+La dernière adresse disponible
+L'adresse de diffusion
+PC5
 L'adresse de réseau
 La première adresse disponible
 La dernière adresse disponible
@@ -34,23 +45,36 @@ Q.3.10 On souhaite mettre la configuration IP des ordinateurs en dynamique. Quel
 
 Fichier 1 :
 
-Q.3.11 Sur le paquet N°5, quelle est l'adresse mac du matériel qui initialise la communication ? Déduis-en le nom du matériel.
+Q.3.11 Sur le paquet N°5, quelle est l'adresse mac du matériel qui initialise la communication ?
+00:50:79:66:68:00
+Déduis-en le nom du matériel.
+ETHERNET II
 
-Q.3.12 Est-ce que la communication enregistrée dans cette capture a réussi ? Si oui, indique entre quels matériel, si non indique pourquoi cela n'a pas fonctionné.
+Q.3.12 Est-ce que la communication enregistrée dans cette capture a réussi ? 
+oui, entre les matériels 00:50:79:66:68:00 et 00:50:79:66:68:03
 
-Q.3.13 Dans cette capture, à quel matériel correspond le request et le reply ? Donne le nom, l'adresse IP, et l'adresse mac de chaque materiel.
+Q.3.13 Dans cette capture, à quel matériel correspond le request et le reply ? 
+Donne le nom, l'adresse IP, et l'adresse mac de chaque materiel.
+request 10.10.4.1 00:50:79:66:68:00
+reply 10.10.4.2 00:50:79:66:68:03
 
 Q.3.14 Dans le paquet N°2, quel est le protocole encapsulé ? Quel est son rôle ?
+Le protocole ARP (Address Resolution Protocol) est un protocole réseau utilisé pour résoudre les adresses IP en adresses MAC
 
 Q.3.15 Quels ont été les rôles des matériels A et B dans cette communication ?
+
 
 Fichier 2 :
 
 Q.3.16 Dans cette trame, qui initialise la communication ? Donne l'adresse IP ainsi que le nom du matériel.
+10.10.80.3
 
 Q.3.17 Quel est le protocole encapsulé ? Quel est son rôle ?
+ICMP (Internet Control Message Protocol) 
+C'est un protocole réseau utilisé pour envoyer des messages de contrôle et de diagnostic entre les équipements réseau.
 
-Q.3.18 Est-ce que cette communication a réussi ? Si oui, indique entre quels matériel, si non indique pourquoi cela n'a pas fonctionné.
+Q.3.18 Est-ce que cette communication a réussi ? 
+non, le périphérique destinataire (10.10.80.3) est inaccessible
 
 Q.3.19 Explique la ligne du paquet N° 2
 
@@ -59,7 +83,12 @@ Q.3.20 Quels ont été les rôles des matériels A et B ?
 Fichier 3 :
 
 Q.3.21 Dans cette trame, donne les noms et les adresses IP des matériels sources et destination.
+source IP 10.10.4.2
+destination IP 172.16.5.253
 
-Q.3.22 Quelles sont les adresses mac source et destination ? Qu'en déduis-tu ?
+Q.3.22 Quelles sont les adresses mac source et destination ? 
+adresse mac source ca:01:da:d2:00:1c
+adresse mac destination ca:03:9e:ef:00:38
 
 Q.3.23 A quel emplacement du réseau a été enregistré cette communication ?
+le routeur
