@@ -20,24 +20,26 @@ la passerelle par défaut
 
 Q.3.6 Pour les ordinateur PC1, PC2, et PC5 donne :
 PC1
-L'adresse de réseau
-La première adresse disponible
-La dernière adresse disponible
-L'adresse de diffusion
+Adresse de réseau: 10.10.0.0
+Première adresse disponible: 10.10.0.1
+Dernière adresse disponible: 10.10.255.254
+Adresse de diffusion: 10.10.255.255
 PC2
-L'adresse de réseau
-La première adresse disponible
-La dernière adresse disponible
-L'adresse de diffusion
+Adresse de réseau : 10.11.0.0
+Première adresse disponible : 10.11.0.1
+Dernière adresse disponible : 10.11.255.254
+Adresse de diffusion : 10.11.255.255
 PC5
-L'adresse de réseau
-La première adresse disponible
-La dernière adresse disponible
-L'adresse de diffusion
+Adresse de réseau : 10.10.0.0
+Première adresse disponible : 10.10.0.1
+Dernière adresse disponible : 10.10.1.254
+Adresse de diffusion : 10.10.1.255
 
 Q.3.7 En t'aidant des informations que tu as fourni à la question 3.6, et à l'aide de tes connaissances, indique parmi tous les ordinateurs du schéma, lesquels vont pouvoir communiquer entre-eux.
+Le PC1, le PC4 et le PC 5 pourront communiquer entre eux
 
 Q.3.8 De même, indique ceux qui vont pouvoir atteindre le réseau 172.16.5.0/24.
+Tous les PC
 
 Q.3.9 Quel incidence y-a-t'il pour les ordinateurs PC2 et PC3 si on interverti leur ports de connexion sur le matériel A ?
 
