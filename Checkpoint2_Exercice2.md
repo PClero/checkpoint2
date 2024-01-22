@@ -7,6 +7,7 @@ Q.2.2 Le premier utilisateur du fichier Users.csv n'est jamais pris en compte. M
 
 Q.2.3 Le champs Description est importé du fichier mais non-utilisé. Modifie le code pour que ce champs soit utilisé dans la création des utilisateurs.
 
+
 Q.2.4 Dans l'importation des utilisateurs du fichier CSV, tous les champs sont pris. Or il n'y en a qu'une partie qui est utilisé par la suite. Corrige pour qu'il n'y ait que les champs utilisés pour la création des utilisateurs qui soient importés du fichier CSV.
 
 Q.2.5 Le mot de passe crée n'est pas affiché, donc on ne le connait pas. Affiche le avec le message indiquant qu'un compte est crée.
