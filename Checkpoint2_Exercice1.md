@@ -18,7 +18,7 @@ Ping statistics for 172.16.10.50:
 Approximate round trip times in milli-seconds:
     Minimum = 0ms, Maximum = 1ms, Average = 0ms
 
-C:\Users\Administrator>
+
 
 Q.1.2 Le ping avec le nom des machines ne fonctionne pas.
 j'ai rajouté l'adresse du DNS (127.0.0.1) sur le client pour que cela fonctionne
@@ -36,7 +36,7 @@ Ping statistics for fe80::6e71:c871:d81b:ea22%6:
 Approximate round trip times in milli-seconds:
     Minimum = 0ms, Maximum = 1ms, Average = 0ms
 
-C:\Users\Administrator>
+
 
 Q.1.3 Modifie la configuration réseau du client pour qu'il soit en DHCP.
 Vérifie le paramétrage DHCP sur le serveur et compare le avec l'adresse IP du client.
