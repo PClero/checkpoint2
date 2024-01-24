@@ -1,9 +1,9 @@
-Q.1.1 Pourquoi le ping avec les adresses IP des machines ne fonctionnent pas ?\
+**Q.1.1 Pourquoi le ping avec les adresses IP des machines ne fonctionnent pas ?**\
 ils ne sont pas sur le même réseau\
-Explique ce que tu as fait et montre le par des copies d'écran.\
+**Explique ce que tu as fait et montre le par des copies d'écran.**\
 j'ai changé l'adresse du client en 172.16.10.50
 
-On doit avoir la copie d'écran d'un ping fonctionnel:\
+**On doit avoir la copie d'écran d'un ping fonctionnel:**\
 ping effectué depuis SRVWIN2022\
 C:\Users\Administrator>ping 172.16.10.50
 
@@ -20,7 +20,7 @@ Approximate round trip times in milli-seconds:\
 
 
 
-Q.1.2 Le ping avec le nom des machines ne fonctionne pas.\
+**Q.1.2 Le ping avec le nom des machines ne fonctionne pas.**\
 j'ai rajouté l'adresse du DNS (127.0.0.1) sur le client pour que cela fonctionne\
 ping effectué depuis SRVWIN2022\
 C:\Users\Administrator>ping Client1
@@ -38,12 +38,12 @@ Approximate round trip times in milli-seconds:\
 
 
 
-Q.1.3 Modifie la configuration réseau du client pour qu'il soit en DHCP.\
+**Q.1.3 Modifie la configuration réseau du client pour qu'il soit en DHCP.**\
 il faut aller dans réseau et internet => connexions réseau => propriétés de ethernet => propriété de : Protocole Internet version 4 (TCP/IP) puis cliquer sur "Obtenir une adresse IP automatiquement"\
-Vérifie le paramétrage DHCP sur le serveur et compare le avec l'adresse IP du client.\
-Explique pourquoi le client ne récupère pas la 1ère adresse disponible sur la plage DHCP du serveur ?\
-Fais une copie d'écran montrant l'adresse IP prise par le client.
+**Vérifie le paramétrage DHCP sur le serveur et compare le avec l'adresse IP du client.**\
+**Explique pourquoi le client ne récupère pas la 1ère adresse disponible sur la plage DHCP du serveur ?**\
+**Fais une copie d'écran montrant l'adresse IP prise par le client.**
 
-Q.1.4 Est-ce que ce client peut avoir l'adresse IP 172.16.10.15 en DHCP ?\
-Si oui fais les manipulations nécessaires.\
-Explique ce que tu as fait et montre par une copie d'écran le résultat de la commande ipconfig /all sur le client.
+**Q.1.4 Est-ce que ce client peut avoir l'adresse IP 172.16.10.15 en DHCP ?**\
+**Si oui fais les manipulations nécessaires.**\
+**Explique ce que tu as fait et montre par une copie d'écran le résultat de la commande ipconfig /all sur le client.**
