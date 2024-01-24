@@ -1,3 +1,7 @@
+Pour le script main il faut changer le chemin dans le script ; il pointe vers \temp et il faut qu'il pointe vers \scripts
+
+
+
 Function ManageAccentsAndCapitalLetters {
     param ([String]$String)
     
