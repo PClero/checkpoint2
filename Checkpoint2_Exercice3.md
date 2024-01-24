@@ -33,7 +33,7 @@ PC5\
 Adresse de réseau : 10.10.0.0\
 Première adresse disponible : 10.10.0.1\
 Dernière adresse disponible : 10.10.1.254\
-Adresse de diffusion : 10.10.1.255\
+Adresse de diffusion : 10.10.1.255
 
 Q.3.7 En t'aidant des informations que tu as fourni à la question 3.6, et à l'aide de tes connaissances,\ indique parmi tous les ordinateurs du schéma, lesquels vont pouvoir communiquer entre-eux.\
 Le PC1, le PC4 et le PC 5 pourront communiquer entre eux
@@ -80,21 +80,21 @@ C'est un protocole réseau utilisé pour envoyer des messages de contrôle et de
 Q.3.18 Est-ce que cette communication a réussi ? \
 non, le périphérique destinataire (10.10.80.3) est inaccessible
 
-Q.3.19 Explique la ligne du paquet N° 2
-cette ligne indique qu'une trame ICMP a été capturée, dont l'adresse IP source est 10.10.255.254, l'adresse IP destination est 10.10.80.3, et le message ICMP est injoignable avec le code retour "Host unreachable". Cela indique qu'un équipement a tenté d'envoyer un message à l'adresse 10.10.80.3, mais cette adresse était inaccessible.
+Q.3.19 Explique la ligne du paquet N° 2\
+cette ligne indique qu'une trame ICMP a été capturée, dont l'adresse IP source est 10.10.255.254,\ l'adresse IP destination est 10.10.80.3, et le message ICMP est injoignable avec le code retour "Host\ unreachable". Cela indique qu'un équipement a tenté d'envoyer un message à l'adresse 10.10.80.3, mais\ cette adresse était inaccessible.
 
 Q.3.20 Quels ont été les rôles des matériels A et B ? \
 A est la source et B est la destination.
 
 Fichier 3 :
 
-Q.3.21 Dans cette trame, donne les noms et les adresses IP des matériels sources et destination.
-source IP 10.10.4.2
+Q.3.21 Dans cette trame, donne les noms et les adresses IP des matériels sources et destination.\
+source IP 10.10.4.2\
 destination IP 172.16.5.253
 
-Q.3.22 Quelles sont les adresses mac source et destination ? 
-adresse mac source ca:01:da:d2:00:1c
+Q.3.22 Quelles sont les adresses mac source et destination ?\ 
+adresse mac source ca:01:da:d2:00:1c\
 adresse mac destination ca:03:9e:ef:00:38
 
-Q.3.23 A quel emplacement du réseau a été enregistré cette communication ?
+Q.3.23 A quel emplacement du réseau a été enregistré cette communication ?\
 le routeur
