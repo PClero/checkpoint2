@@ -39,9 +39,10 @@ Approximate round trip times in milli-seconds:\
 
 
 Q.1.3 Modifie la configuration réseau du client pour qu'il soit en DHCP.\
+il faut aller dans réseau et internet => connexions réseau => propriétés de ethernet => propriété de : Protocole Internet version 4 (TCP/IP) puis cliquer sur "Obtenir une adresse IP automatiquement"\
 Vérifie le paramétrage DHCP sur le serveur et compare le avec l'adresse IP du client.\
 Explique pourquoi le client ne récupère pas la 1ère adresse disponible sur la plage DHCP du serveur ?\
-Fais une copie d'écran montrant l'adresse IP prise par le client.\
+Fais une copie d'écran montrant l'adresse IP prise par le client.
 
 Q.1.4 Est-ce que ce client peut avoir l'adresse IP 172.16.10.15 en DHCP ?\
 Si oui fais les manipulations nécessaires.\
