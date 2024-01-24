@@ -92,7 +92,7 @@ Q.3.21 Dans cette trame, donne les noms et les adresses IP des matériels source
 source IP 10.10.4.2\
 destination IP 172.16.5.253
 
-Q.3.22 Quelles sont les adresses mac source et destination ?\ 
+Q.3.22 Quelles sont les adresses mac source et destination ?\
 adresse mac source ca:01:da:d2:00:1c\
 adresse mac destination ca:03:9e:ef:00:38
 
