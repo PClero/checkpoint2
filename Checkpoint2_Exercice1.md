@@ -43,6 +43,18 @@ il faut aller dans réseau et internet => connexions réseau => propriétés de 
 **Vérifie le paramétrage DHCP sur le serveur et compare le avec l'adresse IP du client.**\
 **Explique pourquoi le client ne récupère pas la 1ère adresse disponible sur la plage DHCP du serveur ?**\
 **Fais une copie d'écran montrant l'adresse IP prise par le client.**
+C:\Users\Administrateur>ipconfig
+
+Configuration IP de Windows
+
+
+Carte Ethernet Ethernet :
+
+   Suffixe DNS propre à la connexion. . . :\
+   Adresse IPv6 de liaison locale. . . . .: fe80::6e71:c871:d81b:ea22%14\
+   Adresse d’autoconfiguration IPv4 . . . : 169.254.248.217\
+   Masque de sous-réseau. . . . . . . . . : 255.255.0.0\
+   Passerelle par défaut. . . . . . . . . :
 
 **Q.1.4 Est-ce que ce client peut avoir l'adresse IP 172.16.10.15 en DHCP ?**\
 **Si oui fais les manipulations nécessaires.**\
