@@ -1,6 +1,6 @@
-Pour le script main il faut changer le chemin dans le script ; il pointe vers \temp et il faut qu'il pointe vers \scripts
+# Pour le script main.ps1 il faut changer le chemin dans le script ; il pointe vers \temp et il faut qu'il pointe vers \scripts
 
-tu trouveras le script AddLocalUsers.ps1 modifié ci-dessous :
+# tu trouveras le script AddLocalUsers.ps1 modifié ci-dessous :
 
 Function ManageAccentsAndCapitalLetters {
     param ([String]$String)
