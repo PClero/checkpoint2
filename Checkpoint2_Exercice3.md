@@ -39,7 +39,7 @@ Adresse de diffusion : 10.10.1.255
 Le PC1, le PC3 et le PC4 pourront communiquer entre eux
 
 **Q.3.8 De même, indique ceux qui vont pouvoir atteindre le réseau 172.16.5.0/24.**\
-Tous les PC
+Tous les PC sauf PC2
 
 **Q.3.9 Quel incidence y-a-t'il pour les ordinateurs PC2 et PC3 si on interverti leur ports de connexion sur le matériel A ?**\
 
