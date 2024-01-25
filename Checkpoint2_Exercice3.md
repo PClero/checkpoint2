@@ -42,8 +42,10 @@ Le PC1, le PC3 et le PC4 pourront communiquer entre eux
 Tous les PC sauf PC2
 
 **Q.3.9 Quel incidence y-a-t'il pour les ordinateurs PC2 et PC3 si on interverti leur ports de connexion sur le matériel A ?**\
+Rien
 
 **Q.3.10 On souhaite mettre la configuration IP des ordinateurs en dynamique. Quelles sont les modifications possible ?**\
+Il faut un serveur DHCP
 
 **Wireshark 🦈**
 
