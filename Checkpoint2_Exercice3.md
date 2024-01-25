@@ -90,8 +90,8 @@ A est la source et B est la destination.
 
 **Fichier 3 :**
 
-**Q.3.21 Dans cette trame, donne les noms et les adresses IP des matériels sources et destination.\
-source IP 10.10.4.2**\
+**Q.3.21 Dans cette trame, donne les noms et les adresses IP des matériels sources et destination.**\
+source IP 10.10.4.2\
 destination IP 172.16.5.253
 
 **Q.3.22 Quelles sont les adresses mac source et destination ?**\
